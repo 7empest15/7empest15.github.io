@@ -108,6 +108,7 @@ section h2::after {
    border: 4px solid var(--accent);
    box-shadow: 0 0 20px rgba(100, 108, 255, 0.3);
    transition: var(--transition);
+   object-fit: cover; /* Ajoutez cette ligne pour conserver les proportions */
 }
 
 .avatar:hover {
